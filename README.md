@@ -20,9 +20,9 @@ To deal with multiple object of same type for example when our vehicle stops at 
 
 Control Loop:
 we have utilised hal and pal libraries for localization(using QcarEKF and qcarGPS) , we have used staney controller based algorithm for to provide control input to track a reference speed(for speed controller) and stanley gain and heading error (for steering control),To track the way points better we dynamically change the reference tracking speed and the Stanley gain(steering control) according to orientaion of waypoints ahead with respect to the vehicle. -->
-# Quanser Competition 2025 Submission
+# Quanser Competition 2026 Submission
 
-This repository contain our official submission for the **Quanser Autonomous Vehicle Challenge 2025**.
+This repository contains our official submission for the **Quanser Autonomous Vehicle Challenge 2025**.
 
 ## Scenario Implementation
 
@@ -31,7 +31,7 @@ We have implemented the [Detailed Scenario](https://github.com/quanser/ACC-Compe
 As part of the extended requirements, we included the **Ultralytics YOLO** package in our Docker environment. The repository includes:
 
 - `requirements.txt` — for all Python package dependencies
-- `Dockerfile` — for setting up the complete containerized development environment
+- `Dockerfile` — for setting up the complete containerised development environment
 
 ## Navigation and Localization
 
@@ -135,7 +135,8 @@ To minimize travel time without compromising safety (i.e., staying within lane b
 - **Improvisation**: Added \(\frac{d\psi(t)}{dt}\) for extra damping on heading to eliminate oscillation at high speed.
 
 
-Youtube video [link](https://youtu.be/qH_KObXcGQ8?si=zTrFf_YaKlXuK4n9)
+YouTube video [link](https://youtu.be/qH_KObXcGQ8?si=zTrFf_YaKlXuK4n9)
 
 To showcase object detection and avoidance capabilities, we also added a pedestrian to the simulated environment. The Python setup script for this addition is provided [here](python_dev/pedestrian_move_cone_updated.py).
+
 
