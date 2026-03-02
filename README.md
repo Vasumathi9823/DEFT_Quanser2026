@@ -135,9 +135,10 @@ To minimize travel time without compromising safety (i.e., staying within lane b
 - **Improvisation**: Added \(\frac{d\psi(t)}{dt}\) for extra damping on heading to eliminate oscillation at high speed.
 
 
-YouTube video [link](https://youtu.be/qH_KObXcGQ8?si=zTrFf_YaKlXuK4n9)
+YouTube video [link]([https://youtu.be/qH_KObXcGQ8?si=zTrFf_YaKlXuK4n9](https://youtu.be/Qf9uJDl8HPE))
 
 To showcase object detection and avoidance capabilities, we also added a pedestrian to the simulated environment. The Python setup script for this addition is provided [here](python_dev/pedestrian_move_cone_updated.py).
+
 
 
 
