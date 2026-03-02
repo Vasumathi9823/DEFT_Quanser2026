@@ -26,7 +26,7 @@ This repository contains our official submission for the **Quanser Autonomous Ve
 
 ## Scenario Implementation
 
-We have implemented the [Detailed Scenario](https://github.com/quanser/ACC-Competition-2025/blob/main/Detailed_Scenario.md) in the Quanser simulated environment using **Python**.
+We have implemented the [Detailed Scenario](https://quanser.github.io/student-competitions/events/common/Rules_and_Objectives/Virtual_Stage_Competition_Guide.html) in the Quanser simulated environment using **Python**.
 
 As part of the extended requirements, we included the **Ultralytics YOLO** package in our Docker environment. The repository includes:
 
@@ -138,5 +138,6 @@ To minimize travel time without compromising safety (i.e., staying within lane b
 YouTube video [link](https://youtu.be/qH_KObXcGQ8?si=zTrFf_YaKlXuK4n9)
 
 To showcase object detection and avoidance capabilities, we also added a pedestrian to the simulated environment. The Python setup script for this addition is provided [here](python_dev/pedestrian_move_cone_updated.py).
+
 
 
